@@ -15,19 +15,11 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item STEEL_PLATE = registerItem("steel_plate", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
-        entries.add(STEEL_NUGGET);
-        entries.add(STEEL_INGOT);
-        entries.add(STEEL_PLATE);
-    }
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AssortedAdditions.MOD_ID, name), item);
     }
 
     public static void  registerModItems() {
         AssortedAdditions.LOGGER.info("Registering Mod Items for " + AssortedAdditions.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientsItemGroup);
     }
 }
