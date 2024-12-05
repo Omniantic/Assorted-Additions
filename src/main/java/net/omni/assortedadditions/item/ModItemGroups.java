@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.omni.assortedadditions.AssortedAdditions;
+import net.omni.assortedadditions.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup ASSORTED_ADDITIONS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -18,6 +19,9 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_PLATE);
+
+                        entries.add(ModBlocks.STEEL_BLOCK);
+                        entries.add(ModBlocks.STEEL_PLATE_BLOCK);
 
                     }).build());
 

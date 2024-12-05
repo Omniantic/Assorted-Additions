@@ -3,5 +3,8 @@
   "item.assorted-additions.steel_ingot": "Steel Ingot",
   "item.assorted-additions.steel_plate": "Steel Plate",
 
-  "itemgroup.assorted_additions": "Assorted Additions"
+  "itemgroup.assorted_additions": "Assorted Additions",
+
+  "block.assorted-additions.steel_block": "Block of Steel",
+  "block.assorted-additions.steel_plate_block": "Steel Plating"
 }
