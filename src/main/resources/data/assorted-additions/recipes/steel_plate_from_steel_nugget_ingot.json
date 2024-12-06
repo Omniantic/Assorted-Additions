@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "assorted-additions:steel_nugget"
+    },
+    "X": {
+      "item": "assorted-additions:steel_ingot"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "assorted-additions:steel_plate"
+  }
+}

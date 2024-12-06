@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "assorted-additions:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "assorted-additions:steel_block"
+  }
+}

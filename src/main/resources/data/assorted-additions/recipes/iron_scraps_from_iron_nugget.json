@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "assorted-additions:iron_scraps"
+  }
+}
