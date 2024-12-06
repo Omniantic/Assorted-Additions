@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_PLATE);
+                        entries.add(ModItems.IRON_SCRAPS);
 
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.STEEL_PLATE_BLOCK);

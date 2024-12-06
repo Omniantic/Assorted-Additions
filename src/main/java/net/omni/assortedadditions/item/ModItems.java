@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item STEEL_NUGGET = registerItem("steel_nugget", new Item(new FabricItemSettings()));
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item STEEL_PLATE = registerItem("steel_plate", new Item(new FabricItemSettings()));
+    public static final Item IRON_SCRAPS = registerItem("iron_scraps", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AssortedAdditions.MOD_ID, name), item);
