@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_PLATE);
                         entries.add(ModItems.IRON_SCRAPS);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.GOLDEN_TOMATO);
 
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.STEEL_PLATE_BLOCK);
