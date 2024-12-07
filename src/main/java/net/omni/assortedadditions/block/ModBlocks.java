@@ -14,9 +14,9 @@ import net.omni.assortedadditions.AssortedAdditions;
 
 public class ModBlocks {
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.METAL)));
-    public static final Block STEEL_PLATE_BLOCK = registerBlock("steel_plate_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
+    public static final Block STEEL_PLATE_BLOCK = registerBlock("steel_plate_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS).sounds(BlockSoundGroup.METAL)));
 
 
     private static Block registerBlock(String name, Block block) {
