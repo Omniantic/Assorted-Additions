@@ -16,13 +16,14 @@ public class ModItemGroups {
             new Identifier(AssortedAdditions.MOD_ID, "assorted_additions"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.assorted_additions"))
                     .icon(() -> new ItemStack(ModItems.STEEL_PLATE)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.IRON_SCRAPS);
                         entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_PLATE);
-                        entries.add(ModItems.IRON_SCRAPS);
+                        entries.add(ModItems.SCYTHE);
+                        entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.GOLDEN_TOMATO);
-                        entries.add(ModItems.SCYTHE);
 
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.STEEL_PLATE_BLOCK);

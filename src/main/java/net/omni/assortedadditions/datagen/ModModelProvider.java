@@ -6,6 +6,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.omni.assortedadditions.block.ModBlocks;
+import net.omni.assortedadditions.block.custom.TomatoCropBlock;
 import net.omni.assortedadditions.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -17,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STEEL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STEEL_PLATE_BLOCK);
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3);
     }
 
     @Override

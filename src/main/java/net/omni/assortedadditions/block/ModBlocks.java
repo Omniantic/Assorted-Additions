@@ -11,12 +11,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.omni.assortedadditions.AssortedAdditions;
+import net.omni.assortedadditions.block.custom.TomatoCropBlock;
 
 public class ModBlocks {
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block STEEL_PLATE_BLOCK = registerBlock("steel_plate_block",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS).sounds(BlockSoundGroup.METAL)));
+
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(AssortedAdditions.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
 
     private static Block registerBlock(String name, Block block) {

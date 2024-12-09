@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.omni.assortedadditions.block.ModBlocks;
 import net.omni.assortedadditions.item.ModItemGroups;
 import net.omni.assortedadditions.item.ModItems;
+import net.omni.assortedadditions.util.ModLootTablesModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,7 @@ public class AssortedAdditions implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModLootTablesModifiers.modifyLootTables();
 	}
 }
