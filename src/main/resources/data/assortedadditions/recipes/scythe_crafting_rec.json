@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "assorted-additions:steel_ingot"
+    },
+    "X": {
+      "item": "minecraft:netherite_axe"
+    },
+    "S": {
+      "item": "minecraft:netherite_sword"
+    }
+  },
+  "pattern": [
+    "###",
+    " X ",
+    "S  "
+  ],
+  "result": {
+    "item": "assorted-additions:scythe"
+  }
+}

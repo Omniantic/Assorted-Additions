@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.IRON_SCRAPS);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.GOLDEN_TOMATO);
+                        entries.add(ModItems.SCYTHE);
 
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.STEEL_PLATE_BLOCK);
