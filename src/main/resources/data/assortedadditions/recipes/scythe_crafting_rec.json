@@ -1,23 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "#": {
-      "item": "assorted-additions:steel_ingot"
-    },
-    "X": {
-      "item": "minecraft:netherite_axe"
-    },
-    "S": {
-      "item": "minecraft:netherite_sword"
-    }
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "assorted-additions:scythe_blade"
   },
-  "pattern": [
-    "###",
-    " X ",
-    "S  "
-  ],
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
   "result": {
     "item": "assorted-additions:scythe"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   }
 }

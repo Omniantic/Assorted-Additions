@@ -26,6 +26,7 @@ public class ModItems {
             new SwordItem(ModToolMaterial.STEEL, 9, -2.7f, new FabricItemSettings().rarity(Rarity.EPIC)));
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
             new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+    public static final Item SCYTHE_BLADE = registerItem("scythe_blade", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AssortedAdditions.MOD_ID, name), item);

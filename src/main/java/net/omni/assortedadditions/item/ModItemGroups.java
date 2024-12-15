@@ -15,18 +15,19 @@ public class ModItemGroups {
     public static final ItemGroup ASSORTED_ADDITIONS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AssortedAdditions.MOD_ID, "assorted_additions"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.assorted_additions"))
-                    .icon(() -> new ItemStack(ModItems.STEEL_PLATE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.SCYTHE)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.SCYTHE);
+                        entries.add(ModItems.SCYTHE_BLADE);
                         entries.add(ModItems.IRON_SCRAPS);
                         entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_PLATE);
-                        entries.add(ModItems.SCYTHE);
+                        entries.add(ModBlocks.STEEL_BLOCK);
+                        entries.add(ModBlocks.STEEL_PLATE_BLOCK);
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.GOLDEN_TOMATO);
 
-                        entries.add(ModBlocks.STEEL_BLOCK);
-                        entries.add(ModBlocks.STEEL_PLATE_BLOCK);
 
                     }).build());
 

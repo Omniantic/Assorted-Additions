@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 public abstract class ItemRendererMixin {
     @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
     public BakedModel useScytheHeld(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
-        if (stack.isOf(ModItems.SCYTHE) && renderMode != ModelTransformationMode.GUI && renderMode != ModelTransformationMode.GROUND && renderMode != ModelTransformationMode.FIXED) {
+        if (stack.isOf(ModItems.SCYTHE) && renderMode != ModelTransformationMode.GUI && renderMode != ModelTransformationMode.GROUND) {
             return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(AssortedAdditions.MOD_ID, "scythe_held", "inventory"));
         }
         return value;

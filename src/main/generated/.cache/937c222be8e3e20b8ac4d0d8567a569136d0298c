@@ -1,13 +1,14 @@
-// 1.20.1	2024-12-10T17:45:22.5603221	Assorted Additions/Model Definitions
+// 1.20.1	2024-12-15T18:07:58.2774893	Assorted Additions/Model Definitions
 c67700fb4262ea7ae8b164d2622d29b27cd8457e assets\assorted-additions\models\block\tomato_crop_stage2.json
 744daa4a2ac636bb3ecf1146f27c2719ad3fe04a assets\assorted-additions\models\item\tomato_seeds.json
 2f51005cd37f6aa18512ad5d64eafca4108c9325 assets\assorted-additions\models\item\scythe.json
 bbbcae5ec15c10c0aa578db3e3060a1079395aae assets\assorted-additions\models\block\tomato_crop_stage3.json
+d0c317da931b64b5107fe4e0d265a46d39546a47 assets\assorted-additions\models\item\scythe_blade.json
 86be7608a92a51e7f41bd829ccf64bc6a01beb3e assets\assorted-additions\models\item\steel_plate.json
 cf8d0c9fd9a78fd7679ff75361584d2b8a9a79ff assets\assorted-additions\models\item\steel_plate_block.json
 8be6ef205a09bdf423efef4477864900902fcc2c assets\assorted-additions\models\block\tomato_crop_stage0.json
-8b8aea73f6611992dfa910381cd1b819125e002f assets\assorted-additions\models\item\tomato.json
 80bc67cbfd54d8bb0782b9f5edd3aa14d34aa2e0 assets\assorted-additions\blockstates\steel_plate_block.json
+8b8aea73f6611992dfa910381cd1b819125e002f assets\assorted-additions\models\item\tomato.json
 65cbc939821337012c2d989d0287b2d99f165c2b assets\assorted-additions\blockstates\tomato_crop.json
 58a4368efddd53915ef515fadaea4b289dff4ad6 assets\assorted-additions\blockstates\steel_block.json
 800bd736e1765b0d13d95eca8ea14b3bc4465d10 assets\assorted-additions\models\item\golden_tomato.json
